@@ -43,10 +43,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	+------+------+------+------+------+------+------+------+------+------+------+------+
 	*/
 	[_RAISE] = LAYOUT_planck_grid(
-		______,  KC_GRV,  KC_AT ,  KC_PERC, KC_ASTR, ______, KC_ESC, KC_P7,  KC_P8,   KC_P9,   KC_PAST, ______,
-		______,  KC_EXLM, KC_AMPR, KC_BSLS, KC_EQL,  ______, KC_TAB, KC_P4,  KC_P5,   KC_P6,   KC_PPLS, ______,
-		______,  KC_CIRC, KC_HASH, KC_DLR,  ______,  ______,  ______, KC_P1,  KC_P2,   KC_P3,   KC_PMNS, KC_PEQL ,
-		KC_RCTL, ______,  ______,  ______,  ______,  ______,  ______, KC_P0,  KC_PDOT, KC_PENT, KC_PSLS,  ______ 
+		______,  KC_GRV,  KC_AT ,  KC_PERC, KC_ASTR, ______, KC_ESC, KC_7,   KC_8,    KC_9,    KC_PAST, ______,
+		______,  KC_EXLM, KC_AMPR, KC_BSLS, KC_EQL,  ______, KC_TAB, KC_4,   KC_5,    KC_6,    KC_PPLS, ______,
+		______,  KC_CIRC, KC_HASH, KC_DLR,  ______,  ______, ______, KC_1,   KC_2,    KC_3,    KC_PMNS, KC_PEQL ,
+		KC_RCTL, ______,  ______,  ______,  ______,  ______, ______, KC_0,   KC_DOT,  KC_PENT, KC_PSLS,  ______ 
 	),
 
 	/* Lower
